@@ -1,0 +1,18 @@
+# Ignore Python environment and cache
+env/
+*.pyc
+__pycache__/
+
+# Ignore node modules
+node_modules/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+
+# Ignore environment variable files
+.env
