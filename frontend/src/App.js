@@ -1,14 +1,17 @@
 import React from 'react';
-import CoffeeLeafImages from './components/CoffeeLeafImages';
+import AddDisease from './components/AddDisease';
+import TrainModel from './components/TrainModel';
+import TestModel from './components/TestModel';
 
-function App() {
+const App = () => {
     return (
         <div>
             <h1>Fruit Detection System</h1>
-            <CoffeeLeafImages />
+            <AddDisease />
+            <TrainModel />
+            <TestModel />
         </div>
     );
-}
+};
 
 export default App;
-
