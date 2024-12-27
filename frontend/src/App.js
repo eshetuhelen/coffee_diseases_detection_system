@@ -6,7 +6,7 @@ import TestModel from './components/TestModel';
 const App = () => {
     return (
         <div>
-            <h1>Fruit Detection System</h1>
+            <h1>Coffee Disease Detection System</h1>
             <AddDisease />
             <TrainModel />
             <TestModel />

@@ -1,10 +1,8 @@
 from django.db import models
 
 class CoffeeLeafImage(models.Model):
-    name = models.CharField(max_length=255, blank=True)  # Name of the image
-    image = models.BinaryField()  # Store binary data
-    uploaded_at = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='coffee_leaf_images/')
+    label = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.name or f"CoffeeLeafImage {self.id}"
-
+        return f"{self.label} - {self.image.name}"
