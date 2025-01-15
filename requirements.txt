@@ -1,0 +1,8 @@
+opencv-python
+numpy
+matplotlib
+pandas
+tensorflow
+Pillow
+setuptools
+django
